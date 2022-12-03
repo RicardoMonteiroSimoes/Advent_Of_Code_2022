@@ -18,3 +18,11 @@ The code is also optimized for speed - so in some examples you might see simple 
 [Folder](/day_2/)
 
 ![Benchmark day 2](/benchmark_images/day_2.png)
+
+
+## Day 3
+
+
+[Folder](/day_3/)
+
+![Benchmark day 2](/benchmark_images/day_3.png)
