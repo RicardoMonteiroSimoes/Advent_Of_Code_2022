@@ -6,11 +6,11 @@ function solveTask2Threaded(input, printout)
     total = Threads.Atomic{Int}(0)
     input = reshape(input, (3, 100))
     Threads.@threads for i in 1:100
-        firstElf = Set(input[1,i])
-        secondElf = Set(input[2,i])
-        thirdElf = Set(input[3,i])
+        firstElf = input[1,i]
+        secondElf = input[2,i]
+        thirdElf = input[3,i]
         multiple = filter(x -> x in firstElf, secondElf)
-        multiple = pop!(filter(x -> x in thirdElf, multiple))
+        multiple = getindex(filter(x -> x in thirdElf, multiple), 1)
         if multiple >= 'a'
             Threads.atomic_add!(total, Int(multiple) - 96)
         else

@@ -6,9 +6,9 @@ function solveTask1(input, printout)
     total = 0
     for row in input
         half = Int(length(row)/2)
-        firstHalf = Set((x -> collect(x)).(row[1:half]))
-        secondHalf = Set((x -> collect(x)).(row[half+1:end]))
-        multiple = pop!(filter(x -> x in firstHalf, secondHalf))
+        firstHalf = row[1:half]
+        secondHalf = row[half+1:end]
+        multiple = getindex((filter(x -> x in firstHalf, secondHalf)), 1)
         if multiple >= 'a'
             total += Int(multiple) - 96
         else

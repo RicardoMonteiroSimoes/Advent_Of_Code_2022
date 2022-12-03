@@ -6,9 +6,9 @@ function solveTask1Threaded(input, printout)
     total = Threads.Atomic{Int}(0)
     Threads.@threads for row in input
         half = Int(length(row)/2)
-        firstHalf = Set((x -> collect(x)).(row[1:half]))
-        secondHalf = Set((x -> collect(x)).(row[half+1:end]))
-        multiple = pop!(filter(x -> x in firstHalf, secondHalf))
+        firstHalf = row[1:half]
+        secondHalf = row[half+1:end]
+        multiple = getindex((filter(x -> x in firstHalf, secondHalf)), 1)
         if multiple >= 'a'
             Threads.atomic_add!(total, Int(multiple) - 96)
         else
