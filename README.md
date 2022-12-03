@@ -10,14 +10,14 @@ The code is also optimized for speed - so in some examples you might see simple 
 
 [Folder](/day_1/)
 
-![Benchmark day 1](/benchmark_images/day_1.png)
+![Benchmark day 1](/benchmark_images/day_1.png?)
 
 
 ## Day 2
 
 [Folder](/day_2/)
 
-![Benchmark day 2](/benchmark_images/day_2.png)
+![Benchmark day 2](/benchmark_images/day_2.png?)
 
 
 ## Day 3
@@ -25,4 +25,4 @@ The code is also optimized for speed - so in some examples you might see simple 
 
 [Folder](/day_3/)
 
-![Benchmark day 2](/benchmark_images/day_3.png)
+![Benchmark day 2](/benchmark_images/day_3.png?)
