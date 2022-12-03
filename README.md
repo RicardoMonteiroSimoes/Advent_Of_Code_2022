@@ -4,7 +4,9 @@ The `true` parameter in each execution runs the benchmark without output, as tha
 
 At the same time, `I/O` is **not** part of the benchmark, only the algorithm itself. On the other hand, parsing the data from the file is done inside the benchmark. This also takes the data in raw - it does not use any form of by hand manipulation of the data into a better format.
 
-The code is also optimized for speed - so in some examples you might see simple `if - esle if`, because that's the fastest I came up with.
+The code is also optimized for speed - so in some examples you might see simple `if - else if`, because that's the fastest I came up with.
+
+First usage of `Threads` happens on **day 3**, as the previous days could not benefit from it. _Or could they...?_
 
 ## Day 1
 
