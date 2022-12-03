@@ -8,7 +8,7 @@ function solveTask1Threaded(input, printout)
         half = Int(length(row)/2)
         firstHalf = row[1:half]
         secondHalf = row[half+1:end]
-        multiple = getindex((filter(x -> x in firstHalf, secondHalf)), 1)
+        multiple = getindex(filter(x -> x in firstHalf, secondHalf), 1)
         if multiple >= 'a'
             Threads.atomic_add!(total, Int(multiple) - 96)
         else
