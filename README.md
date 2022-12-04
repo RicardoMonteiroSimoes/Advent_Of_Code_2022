@@ -28,3 +28,11 @@ First usage of `Threads` happens on **day 3**, as the previous days could not be
 [Folder](/day_3/)
 
 ![Benchmark day 2](/benchmark_images/day_3.png?)
+
+
+## Day 4
+
+
+[Folder](/day_4/)
+
+![Benchmark day 2](/benchmark_images/day_4.png?)
