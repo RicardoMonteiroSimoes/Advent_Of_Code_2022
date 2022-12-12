@@ -27,7 +27,7 @@ First usage of `Threads` happens on **day 3**, as the previous days could not be
 
 [Folder](/day_3/)
 
-![Benchmark day 2](/benchmark_images/day_3.png?)
+![Benchmark day 3](/benchmark_images/day_3.png?)
 
 
 ## Day 4
@@ -35,4 +35,13 @@ First usage of `Threads` happens on **day 3**, as the previous days could not be
 
 [Folder](/day_4/)
 
-![Benchmark day 2](/benchmark_images/day_4.png?)
+![Benchmark day 4](/benchmark_images/day_4.png?)
+
+
+## Day 5
+
+
+[Folder](/day_5/)
+
+![Benchmark day 5.1](/benchmark_images/day_5_1.png?)
+![Benchmark day 5.2](/benchmark_images/day_5_2.png?)
