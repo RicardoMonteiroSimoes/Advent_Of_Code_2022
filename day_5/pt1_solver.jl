@@ -15,7 +15,6 @@ const STACKS = [
 ]
 
 function solvePart1(input, printout)
-    total = 0
     passedToMove = false
     for row in input
         if !passedToMove
